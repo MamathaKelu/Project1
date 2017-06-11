@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_card">
+    
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/Card_view"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:elevation="50dp"
+        card_view:cardCornerRadius="20dp"
+        android:layout_gravity="center"
+        >
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:id="@+id/Card_view2"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:elevation="50dp"
+        card_view:cardCornerRadius="20dp"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        card_view:cardBackgroundColor="@android:color/holo_blue_bright">
+    >
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
